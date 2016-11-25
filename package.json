@@ -9,5 +9,8 @@
   "devDependencies": {
     "dotenv": "^2.0.0",
     "screeps-remote": "^1.0.0"
+  },
+  "dependencies": {
+    "object-hash": "^1.1.5"
   }
 }

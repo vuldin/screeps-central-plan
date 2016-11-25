@@ -4,6 +4,7 @@ current status: hard-coded to just upgrade, most everything else is broke
 
 The screep API for figuring out what actions are possible in your location (building, upgrading, repairing, harvesting, etc.) starts at the individual creep.
 But I wanted to be able to create a central plan for my realm by:
+
 1. looking around at whatever room I have units in
 2. creating a list of possible assignments
 3. prioritizing those assignments
