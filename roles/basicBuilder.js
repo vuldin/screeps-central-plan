@@ -21,6 +21,7 @@ module.exports = {
     if(creep.memory.task == 'harvest') {
       let harvestTargets = creep.room.find(FIND_SOURCES)
       //harvestTargets.sort( (a,b) => a.energy - b.energy)
+      harvestTargets.sort( (a,b) => a.id - b.id)
       if(creep.harvest(harvestTargets[1]) == ERR_NOT_IN_RANGE) {
         creep.moveTo(harvestTargets[1])
       }
